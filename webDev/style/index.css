@@ -1,0 +1,128 @@
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.hero {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../img/hero.jpg');
+    background-size:cover;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    padding: 50px 0;
+
+}
+
+
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.cta-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #063e76;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    background-position: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 15px 0;
+    padding-left: 15px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+.whats-new {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.whats-new-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.whats-new-cta {
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #063e76;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.whats-new-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.whats-new-images img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.whats-new-images-top img {
+    width: 230px;
+    height: 190px;
+    object-fit: cover;
+}
+
+
+.editors-choice {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.img-title {
+    text-align: center;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
+
+footer a{
+    color: white;
+}
+
+
+
